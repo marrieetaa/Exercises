@@ -57,3 +57,41 @@
        console.log((86 - 32) *5 / 9);
 //2n. The temperature is -5°C. Calcualte the temperature in Fahrenheit.    
        console.log((-5 * 9  / 5) + 32);          
+
+//Lesson 3 - Strings
+//3a. Create the text 'My name is:' as a string.
+      console.log('My name is:')
+//3b. Create your name as a string(for example: 'Simon').
+      console.log('Mariam');
+//3c. Using concatenationm add the 2 strings from 3a and 3b together
+    // to create the text: 'My name is: __(replace__ with your name).
+      console.log('My name is: ' + 'Mariam');
+//3d. At a restaurant, you order 1 coffe($5) an 1 bagel($3).
+    //Using math calculate the total cost , and using concatentanion, 
+    //create the text: 'The total cost:$__'(replace__ with the total you calculated).
+      console.log('The total cost: $' + (5 + 3));
+//3e. Do the same thing as 3d, but use a template string and interpolation.
+      console.log(`The total cost: $${5+3}`);
+//3f. Display the text from 3e in a popup using alert(..).  
+      //alert('The total cost: $' + (5+3));
+//3g. You order 1 coffee($5.99) and bagel ($2.95). Using math , calculate the total cost,
+    // an using concatentaion, cretae the text:
+    // 'Total cost: $__'
+      console.log('The total cost: $' + (599 + 295) / 100);
+//3h. Do the same thing as 3g, but use a template string and interpolation.
+      console.log(`The total cost: $${(599 + 295) / 100}`);
+//3i. Display the text from 3h in popup.
+      alert(`The total cost: $${(599 + 295) / 100}`);
+//3j. using a multi-line string, cretae the text from 3h and add a line of text underneath:
+   // 'Thank you  come again!. Display both lines in popup.  
+      alert('The total cost: $' + (599 + 295) / 100 + '\nThank you, come again!');
+//----> SETUP: BASKETBALL-20.95(NUM-2)(SHIPPING-4.99) + T-SHIRTS-7.99(NUM-2)(SHIPPING-4.99).
+//3K. Using interpolation, create the first line of text(use math to calculate the numbers 4 and 57.88)
+      console.log(`Items(${1+1+1+1}): $${(2095 * 2 + 799 * 2) / 100}`);
+//3l. Create second line of text: 'Shipping & handling; 9.98' (use math).
+      console.log(`Shipping & handing: $${499 * 2 / 100}`);
+//3m. Create third line: 'Total before tax: $67.86' (use macth).
+      console.log(`Total before tax: $${(2095 * 2 + 799 * 2 + 499 * 2) / 100}`);
+//3n. Create fourth line text: 'Estimated tax (10%): $6.79'
+  // (use match and Math.round(..); to calculate the exact number).   
+      console.log(`Estimated tax(10%): $${Math.round((2095 * 2 + 799 * 2 + 499 + 499) * 0.1) /100}`);
