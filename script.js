@@ -1,8 +1,8 @@
 //Lesson 1 - JavaScript Basics
 //1a. Use alert(..); to display 'Good Morning' in popup
-      //alert('Good Morning');
+      alert('Good Morning');
 //1b. Display your name is popup
-      //alert('Mariam');
+      alert('Mariam');
 //1c. Using math, calculate 10 + 5 in the Console
       console.log(10 + 5);
 //1d. Calculate 20 - 5
@@ -73,7 +73,7 @@
 //3e. Do the same thing as 3d, but use a template string and interpolation.
       console.log(`The total cost: $${5+3}`);
 //3f. Display the text from 3e in a popup using alert(..).  
-      //alert('The total cost: $' + (5+3));
+      alert('The total cost: $' + (5+3));
 //3g. You order 1 coffee($5.99) and bagel ($2.95). Using math , calculate the total cost,
     // an using concatentaion, cretae the text:
     // 'Total cost: $__'
@@ -95,3 +95,4 @@
 //3n. Create fourth line text: 'Estimated tax (10%): $6.79'
   // (use match and Math.round(..); to calculate the exact number).   
       console.log(`Estimated tax(10%): $${Math.round((2095 * 2 + 799 * 2 + 499 + 499) * 0.1) /100}`);
+     
