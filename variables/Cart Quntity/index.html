@@ -20,10 +20,41 @@
        cartQuantity += 2;
        console.log(`Cart Quantity: ${cartQuantity}`);
      ">+2</button>
+
      <button onclick="
        cartQuantity += 3;
        console.log(`Cart Quantity: ${cartQuantity}`);
      ">+3</button>
+      
+    <!-- 5h. Add 2 more buttons '+4' and '+5', which increase the quantity by 4 and 5 when you click them. -->
+     <button onclick="
+       cartQuantity += 4;
+       console.log(`Cart Quantity: ${cartQuantity}`);
+     ">+4</button>
+
+     <button onclick="
+       cartQuantity += 5;
+       console.log(`Cart Quantity: ${cartQuantity}`);
+     ">+5</button>
+
+     <!-- Add a button 'Remove from cart', whcih decreases the cart quantity by 1 -->
+      <button onclick="
+        cartQuantity--;
+        console.log(`Cart Quantity: ${cartQuantity}`);
+      ">Remove by cart</button>
+
+      <!-- Add 2 buttons '-2' and '-3', which decrease the quantity by 2 and 3. -->
+
+      <button onclick="
+         cartQuantity -= 2;
+         console.log(`Cart Quantity: ${cartQuantity}`);
+      ">-2</button>
+
+      <button onclick="
+        cartQuantity -= 3;
+        console.log(`Cart Quantity: ${cartQuantity}`);
+      ">-3</button>
+
      <button onclick="
        cartQuantity = 0;
        console.log('Cart was reset');
