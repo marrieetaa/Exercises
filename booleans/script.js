@@ -20,6 +20,7 @@ if(false){
 
 //driveAgeCheck
 
+/*
 const age = 15;
 
 if (age >= 16) {
@@ -29,4 +30,23 @@ if (age >= 16) {
 }else {
   console.log('You can\'t drive');
 }
+*/
 
+if(0) {
+  console.log('truthy');
+}
+
+const cartQuantity = 5;
+if(cartQuantity){
+  console.log('Cart has products');
+}
+
+
+const result = 0 ? 'truthy' : 'falsy';
+console.log(result);
+
+const message = 5 && 'Hello';
+console.log(message);
+
+const currency = undefined|| 'USD'; //USD
+console.log(currency);
